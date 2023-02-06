@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.primary-color {
+    color: #FD6E0A;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.btn-primary {
+
+    color: white;
+    background-color: #FD6E0A;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.banner {
+    margin: 0 200px;
+
+}
+
+.banner-flex {
+    display: flex;
+    align-items: center;
+}
+
+.sub-title {
+    margin-bottom: 5px;
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.name-title {
+    margin-bottom: 20px;
+    font-size: 85px;
+    font-weight: 700;
+}
+
+.title-description {
+    font-size: 16px;
+    color: #757575;
+    margin-bottom: 10px;
+}
+
+.btn-call {
+    border: 1px solid orange;
+    border-radius: 5px;
+    padding: 10px 40px;
+    color: #FD6E0A;
+    background: none;
+    margin-left: 20px;
+
+}
+
+.btn-call:hover {
+    color: white;
+    background-color: #FD6E0A;
+}
+
+.header {
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+    margin-bottom: 130px;
+
+}
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about {
+    text-align: center;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+    height: 250px;
+
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 45px;
+
+}
+
+.section-description {
+
+    color: #757575;
+    line-height: 30px;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-title {
+    color: #757575;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.info-value {
+    color: #474747;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+}
