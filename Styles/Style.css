@@ -1,6 +1,11 @@
 * {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
+    user-select: none;
+}
+
+section {
+    margin-top: 130px;
 }
 
 .nav-title {
@@ -95,12 +100,14 @@ main {
     margin: 0 auto;
 }
 
+/* About Section styles */
 .about {
     text-align: center;
     background: #FFF8F3;
     border-radius: 10px;
     padding: 130px 150px;
     height: 250px;
+
 
 }
 
@@ -112,7 +119,7 @@ main {
 }
 
 .section-description {
-
+    text-align: center;
     color: #757575;
     line-height: 30px;
     font-style: normal;
@@ -141,4 +148,142 @@ main {
     font-weight: 700;
     font-size: 20px;
     line-height: 30px;
+}
+
+/* What i do styles */
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px #0000000f;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.skill-title {
+    color: #181818;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.skill-description {
+    color: #757575;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+/* Resume Section */
+.resume {}
+
+.resume-container {
+    display: flex;
+    gap: 24px;
+}
+
+.degre-title {
+    color: #474747;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 34px;
+    margin-top: 10px;
+}
+
+.degre-title:hover {
+    color: #FD6E0A;
+}
+
+.degre-subtitle {
+    color: #757575;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+.degre-description {
+    color: #757575;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.degre-head {
+    color: #474747;
+    ont-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    padding-top: 30px;
+}
+
+hr {
+    width: 558px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.download-cv {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* footer section */
+
+.footer-section {
+    background: #FFF8F3;
+    margin-bottom: 100px;
+
+
+}
+
+.footer-area {
+    display: flex;
+    gap: 40px
+}
+
+.footer-title {
+    color: #181818;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 48px;
+    padding-bottom: 35px;
+}
+
+.form-item {
+    margin-bottom: 24px;
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+    border: 0;
+}
+
+textarea {
+    border: 0px;
+}
+
+.footer-icon {
+    padding-top: 24px;
+}
+
+input.btn-primary {
+    width: 200px;
+
 }
